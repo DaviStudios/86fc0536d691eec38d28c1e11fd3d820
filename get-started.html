@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started at DAVK</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            border-bottom: 1px solid #fff;
+        }
+
+        nav {
+            text-align: right;
+            padding: 10px 20px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .divider {
+            border-top: 1px solid #fff;
+            margin-bottom: 60px; /* Moved the divider below the links */
+        }
+
+        .content {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .call-to-action {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .call-to-action a {
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .watermark {
+            position: absolute;
+            bottom: -680px;
+            left: 10px;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="divider"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">MAIN</a></li>
+                <li><a href="download.html">DOWNLOAD</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>Welcome to DAVK!</h1>
+        <p>
+            Commands below:
+        </p>
+        <p>
+            console(var or "text")
+        </p>
+		<p>
+            var int/str (variable name) = (if int then number, if str then text)
+        </p>
+		<p>
+            if (var or number) (intOperator) (var or number) == (var or number) then (function)
+        </p>
+		<p>
+            read(filename) - displays contents of an file
+        </p>
+		<p>
+            run(filename.davk) - runs an .davk file
+        </p>
+		<p>
+            write(filename = content) - writes content to an file
+        </p>
+    </div>
+    <div class="watermark">© 2023 Kopalium DAVK</div>
+</body>
+</html>
